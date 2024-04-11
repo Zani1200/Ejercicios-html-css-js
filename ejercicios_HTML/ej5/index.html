@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/ejercicios_HTML/ej4/index.html" method="post">
+        <div id="div_nombre">
+            <label for="nombre">Nombre:</label>
+            David
+        </div>
+        <br>
+        <div id="div_apellidos">
+            <label for="Apellidos">Apellidos:</label>
+            Garcia Soto
+        </div>
+        <br>
+        <div id="div_direccion">
+            Direccion:
+            <div>
+                <label for="calle">calle</label>
+                <input type="radio" name="tipoVia" id="calle">
+                <label for="avenida">avenida</label>
+                <input type="radio" name="tipoVia" id="avenida">
+                <label for="plaza">plaza</label>
+                <input type="radio" name="tipoVia" id="plaza">
+            </div>
+            <div>
+                <label for="nombreVia">Nombre de la via</label>
+                Fernando Perez de las Trabas
+            </div>
+            <div>
+                <label for="codigoPostal">Codigo Postal</label>
+                15470
+            </div>
+            <div>
+                <label for="ciudad">Cuidad</label>
+                A Coruña
+            </div>
+            <div>
+                <label for="provincia">Provincia</label>
+                A Coruña
+            </div>
+            <div>
+                <label for="pais">Pais</label>
+                España
+            </div>
+        </div>
+        <br>
+        <div id="div_nacimiento">
+            <label for="Nacimiento">Fecha de nacimiento</label>
+            15-08-2004
+        </div>
+        <br>
+        <div id="div_mediaUni">
+            <label for="mediaUni">Media universidad</label>
+            7,4
+        </div>
+        <br>
+        <div id="div_telefono">
+            <label for="telefono">Telefono</label>
+            644465123
+        </div>
+        <br>
+        <div id="div_contraseña">
+            <label for="contraseña">Contraseña</label>
+            <input type="password" name="contraseña" id="contraseña">
+        </div>
+        <br>
+        <div id="div_repetirContraseña">
+            <label for="repetirContraseña">Repetir Contraseña</label>
+            <input type="password" name="repetirContraseña" id="repetirContraseña">
+        </div>
+        <br>
+        <div id="div_seleccionaPais">
+            Selecciona Pais
+            <div>
+                <label for="españa">españa</label>
+                <input type="radio" name="pais" id="españa">
+                <label for="francia">francia</label>
+                <input type="radio" name="pais" id="francia">
+                <label for="portugal">portugal</label>
+                <input type="radio" name="pais" id="portugal">
+                <label for="andorra">andorra</label>
+                <input type="radio" name="pais" id="andorra">
+            </div>
+        </div>
+        <br>
+        <div id="div_tipoCuenta">
+            Tipo de Cuenta
+            <section>
+                <label for="gratuita">Gratuita</label>
+                <input type="radio" name="tipoCuenta" id="gratuita">
+                Te viene unos recursos de prueba
+            </section>
+            <section>
+                <label for="basica">Basica</label>
+                <input type="radio" name="tipoCuenta" id="basica">
+                Te viene con lo basico
+            </section>
+            <section>
+                <label for="premium">Premium</label>
+                <input type="radio" name="tipoCuenta" id="premium">
+                Tienes mejoras de rendimiento y mas funcionalidades
+            </section>
+        </div>
+        <br>
+        <div id="div_sobreMi">
+            <label for="sobreMi">Sobre Mi</label>
+            Nada importante sobre mi
+        </div>
+        <br>
+        <div id="div_fotoPerfil">
+            <label for="fotoPerfil">Foto de perfil</label>
+            <a href="">foto</a>
+        </div>
+        <br>
+        <div id="div_CV">
+            <label for="Cv">CV</label>
+            <a href="">CV</a>
+        </div>
+        <br>
+        <input type="submit" value="enviar">
+    </form>
+</body>
+</html>
