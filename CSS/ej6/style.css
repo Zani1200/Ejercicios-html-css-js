@@ -1,0 +1,96 @@
+#table{
+    display: grid;
+    grid-template-columns: auto,auto,auto,auto,auto;
+}
+
+#l1c1:hover, #l1c2:hover, #l1c3:hover, #l1c4:hover, #l1c5:hover,
+#l2c1:hover, #l2c2:hover, #l2c3:hover, #l2c4:hover, #l2c5:hover {
+    background-color: darkgray;
+} 
+
+
+#l1c1 {
+    background-color: orange;
+    height: 50px;
+    width: 50px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+}
+#l1c2 {
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    border-width: 3px;
+    border-style:dashed;
+    border-color: black;
+}
+#l1c3 {
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+    border-width: 3px;
+    border-style:dotted;
+    border-color: black;
+}
+#l1c4 {
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    border-width: 3px;
+    border-style:groove;
+    border-color: black;
+}
+#l1c5 {
+    background-color: violet;
+    height: 50px;
+    width: 50px;
+    border-width: 3px;
+    border-style:outset;
+    border-color: black;
+}
+#l2c1 {
+    background-color: orange;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+}
+#l2c2 {
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    border-width: 3px;
+    border-style: dashed;
+    border-color: black;
+}
+#l2c3 {
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    border-width: 3px;
+    border-style: dotted;
+    border-color: black;
+}
+#l2c4 {
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    border-width: 3px;
+    border-style: groove;
+    border-color: black;
+}
+#l2c5 {
+    background-color: violet;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    border-width: 3px;
+    border-style: outset;
+    border-color: black;
+}
