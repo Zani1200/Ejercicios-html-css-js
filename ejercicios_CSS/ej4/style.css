@@ -3,6 +3,27 @@
     grid-template-columns: auto,auto,auto,auto,auto;
 }
 
+#fila1c1, #fila2c1{
+    background-color: red;
+}
+
+#fila1c2, #fila2c2{
+    background-color: yellow;
+}
+
+#fila1c3, #fila2c3{
+    background-color: blue;
+}
+
+#fila1c4, #fila2c4{
+    background-color: violet;
+}
+
+#fila1c5, #fila2c5{
+    background-color: orange;
+}
+
+
 
 #l1c1 {
     background-color: orange;
