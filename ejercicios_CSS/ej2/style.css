@@ -1,0 +1,55 @@
+#l1c1 {
+    background-color: orange;
+    height: 50px;
+    width: 50px;
+}
+#l1c2 {
+    background-color: red;
+    height: 50px;
+    width: 50px;
+}
+#l1c3 {
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+}
+#l1c4 {
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+}
+#l1c5 {
+    background-color: violet;
+    height: 50px;
+    width: 50px;
+}
+#l2c1 {
+    background-color: orange;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+}
+#l2c2 {
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+}
+#l2c3 {
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+}
+#l2c4 {
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+}
+#l2c5 {
+    background-color: violet;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+}
