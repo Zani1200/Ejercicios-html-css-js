@@ -5,7 +5,7 @@
 
 #l1c1:hover, #l1c2:hover, #l1c3:hover, #l1c4:hover, #l1c5:hover,
 #l2c1:hover, #l2c2:hover, #l2c3:hover, #l2c4:hover, #l2c5:hover {
-    background-color: darkgray;
+    rotate: 45deg;
 } 
 
 
