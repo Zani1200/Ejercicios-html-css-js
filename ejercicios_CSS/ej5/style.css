@@ -1,0 +1,107 @@
+.fila1c1 {
+    display: flex;
+    flex-direction: row;
+}
+.fila1c2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.fila1c3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fila1c4 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+#l1c1 {
+    background-color: orange;
+    height: 50px;
+    width: 50px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+}
+#l1c2 {
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    border-width: 3px;
+    border-style:dashed;
+    border-color: black;
+}
+#l1c3 {
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+    border-width: 3px;
+    border-style:dotted;
+    border-color: black;
+}
+#l1c4 {
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    border-width: 3px;
+    border-style:groove;
+    border-color: black;
+}
+#l1c5 {
+    background-color: violet;
+    height: 50px;
+    width: 50px;
+    border-width: 3px;
+    border-style:outset;
+    border-color: black;
+}
+
+#l2c1 {
+    background-color: orange;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+}
+#l2c2 {
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    border-width: 3px;
+    border-style: dashed;
+    border-color: black;
+}
+#l2c3 {
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    border-width: 3px;
+    border-style: dotted;
+    border-color: black;
+}
+#l2c4 {
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    border-width: 3px;
+    border-style: groove;
+    border-color: black;
+}
+#l2c5 {
+    background-color: violet;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    border-width: 3px;
+    border-style: outset;
+    border-color: black;
+}
